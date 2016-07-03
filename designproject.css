@@ -1,0 +1,111 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('windmill.jpg');
+  background-position: center top;
+  background-size: cover; 
+  margin: 0;
+  margin-top: 80px;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.page-description {
+  /* border: 1px solid #000; */
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-size: 19px;
+  padding: 12px; 
+}
+
+.gallery {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 4px solid #fff;
+}
+
+/* HEADER NAVIGATION */
+
+nav {
+  background-color: #d1e0e0;
+  position: fixed;
+  top: 0;
+  margin-bottom: 50px;
+  width: 100%;  
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 15px;
+}
+
+nav ul {
+  display: inline;
+  font-weight: regular;
+}
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 35px;
+  padding: 4px 8px;
+  border: 1px solid #204156;
+  position: relative;
+
+}
+
+.contact-btn a:active {
+  top: 1px;
+}
+
+nav a {
+  height: 45px;
+  line-height: 45px;
+  color: #204156;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* FOOTER */
+
+.page-footer{
+  background-color: #d1e0e0;
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+}
