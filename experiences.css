@@ -29,10 +29,11 @@ a {
 
 .page-description {
   border: 1px solid #000;
-  margin-right: 35px;
-  margin-left: 35px;
+  border-radius: 8px;
+  margin-right: 65px;
+  margin-left: 65px;
   text-align: center;
-  padding: 12px;
+  padding: 10px;
 }
 
 .gallery {
