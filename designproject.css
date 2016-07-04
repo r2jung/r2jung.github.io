@@ -35,21 +35,7 @@ a {
   padding: 12px; 
 }
 
-.gallery {
-  margin-top: 25px;
-  margin-bottom: 45px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.gallery-item {
-  margin: 20px;
-}
-
-.gallery-item .thumbnail {
-  border: 4px solid #fff;
-}
 
 /* HEADER NAVIGATION */
 
