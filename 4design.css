@@ -8,9 +8,9 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('windmill.jpg');
+  background-image: url('berg.jpg');
   background-position: center top;
-  background-size: cover; 
+  background-size: cover;
   margin: 0;
   margin-top: 80px;
 }
@@ -21,20 +21,77 @@ a {
 }
 
 .page-title {
-  text-align: center;
+  text-align: left;
+  margin-left: 120px;
   font-size: 45px;
   font-weight: 300;
 }
 
 .page-description {
   /* border: 1px solid #000; */
-  border-radius: 12px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
-  font-size: 19px;
-  padding: 12px; 
+  /* background-color: #fff; */
+  width: 30%;
+  margin-left: 115px;
+  text-align: left;
+  padding: 6px;
+  font-size: 17px;
 }
+
+.click-boxes {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: 300;
+  color: white;
+  float: left;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  padding: 0 10px;  
+}
+
+.link-1 {
+  display: inline-block;
+  text-align: left;
+  width: 315px;
+  height: 195px;
+  font-size: 14px;
+  margin: 20px;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 12px; 
+}
+
+.link-2 {
+  display: inline-block;
+  text-align: left;
+  width: 315px;
+  height: 195px;
+  font-size: 14px;
+  margin: 20px;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 12px; 
+}
+
+.link-3 {
+  display: inline-block;
+  text-align: left;
+  width: 315px;
+  height: 195px;
+  font-size: 14px;
+  margin: 20px;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 12px; 
+}
+
 
 /* HEADER NAVIGATION */
 

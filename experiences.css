@@ -8,9 +8,9 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  /* background-image: url('ny_city.gif');
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('ny_city2.jpeg');
   background-position: center top;
-  background-size: cover; */
+  background-size: cover;
   background-color: #fff;
   margin: 0;
   margin-top: 80px;
@@ -28,28 +28,111 @@ a {
 }
 
 .page-description {
-  border: 1px solid #000;
-  border-radius: 8px;
-  margin-right: 65px;
-  margin-left: 65px;
+  border: 2px solid #900C3F;
+  border-radius: 12px;
+  color: #C70039;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+  margin-right: 70px;
+  margin-left: 70px;
   text-align: center;
   padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.gallery {
-  margin-top: 25px;
-  margin-bottom: 45px;
+h3 {
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 18px; 
+  color: #900C3F; 
+}
+
+.workterms{
+  position: relative;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 45px;
+
 }
 
-.gallery-item {
+#waterloo{
+  text-align: left;
+  width: 240px;
+  height: 110px;
   margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px; 
 }
 
-.gallery-item .thumbnail {
-  border: 4px solid #fff;
+#sanofi{
+  text-align: left;
+  width: 240px;
+  height: 110px;
+  margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px;         
+}
+
+#fluor{
+  text-align: left;
+  width: 240px;
+  height: 110px;
+  margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px;          
+}
+
+#jana{
+  text-align: left;
+  width: 240px;
+  height: 110px;
+  margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px;       
+}
+
+#provident{
+  text-align: left;
+  width: 240px;
+  height: 110px;
+  margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px;  
+}
+
+#bonavista{
+  text-align: left;
+  width: 240px;
+  height: 110px;
+  margin: 20px;
+  padding: 0;
+  border: 3px solid #900C3F;
+  border-radius: 12px; 
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)); 
+  font-weight: 400;
+  font-size: 14px;    
 }
 
 /* HEADER NAVIGATION */
