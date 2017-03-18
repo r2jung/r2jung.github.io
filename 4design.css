@@ -34,22 +34,24 @@ a {
   margin-left: 115px;
   text-align: left;
   padding: 6px;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .click-boxes {
   position: relative;
-  margin-top: 25px;
-  margin-bottom: 45px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 h3 {
-  margin-left: 15px;
+  margin-left: 60px;
   margin-top: 15px;
   font-weight: 300;
+  font-size: 28px;
   color: white;
   float: left;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
@@ -59,59 +61,88 @@ h3 {
 .link-1 {
   display: inline-block;
   text-align: left;
-  width: 315px;
-  height: 195px;
+  background: url('Prototype_1.png');
+  width: 390px;
+  height: 300px;
   font-size: 14px;
-  margin: 20px;
-  padding: 0;
-  border: 2px solid #fff;
-  border-radius: 12px; 
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid #DCDCDC;
+  border-radius: 12px;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));  
 }
 
 .link-2 {
   display: inline-block;
   text-align: left;
-  width: 315px;
-  height: 195px;
+  width: 566px;
+  height: 300px;
   font-size: 14px;
   margin: 20px;
-  padding: 0;
-  border: 2px solid #fff;
-  border-radius: 12px; 
+  padding: 10px;
+  border: 2px solid #DCDCDC;
+  border-radius: 12px;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)); 
 }
 
 .link-3 {
   display: inline-block;
   text-align: left;
-  width: 315px;
-  height: 195px;
+  width: 400px;
+  height: 300px;
   font-size: 14px;
   margin: 20px;
   padding: 0;
-  border: 2px solid #fff;
+  border: 2px solid #DCDCDC;
   border-radius: 12px; 
 }
 
+.image2{
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height:100%;
+  max-width: 100%;
+ 
+}
+
+.image{
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height:100%;
+  max-width: 100%;
+}
 
 /* HEADER NAVIGATION */
 
 nav {
   background-color: #d1e0e0;
-  position: fixed;
   top: 0;
   margin-bottom: 50px;
-  width: 100%;  
+  width: 100%; 
+  position: fixed;
+  z-index: 1000;
+  
 }
 
 nav li {
   display: inline;
   margin: 0;
   padding: 0 15px;
+  
 }
 
 nav ul {
   display: inline;
   font-weight: regular;
+  
 }
 
 .contact-btn {
@@ -137,6 +168,7 @@ nav a {
   color: #204156;
   text-decoration: none;
   font-size: 15px;
+  
 }
 
 /* FOOTER */
